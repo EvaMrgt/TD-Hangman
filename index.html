@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>HangMan</title>
+</head>
+
+<body>
+    <header>
+        <h1>Hangman</h1>
+    </header>
+    <main>
+        <div class="gameContainer">
+            <div id="menu">
+                <button type="button" onclick="startGame()" id="start">START</button>
+            </div>
+            <p class="word"></p>
+            <p class="result"></p>
+            <p class="attempts"></p>
+            <p class="lives"></p>
+            <div id="keyboard"></div>
+            <button type="button" onclick="replay()" id="replay">AGAIN</button>
+        </div>
+        <img id="hangman-image" src="./assets/imgs/pendu0.png" alt="hangman"></img>
+    </main>
+    <footer>
+        <p>Copyright - 2024 - Tous droits réservés.</p>
+    </footer>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
